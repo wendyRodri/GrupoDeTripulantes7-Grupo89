@@ -1,0 +1,282 @@
+:root{
+    --blanco: #fff;
+    --negro: #000;
+    --naranja: #fc7323;
+    --verde:  #238276;
+    --verdeComplementario: #59b548;
+    --beige: #fff7ef;
+}
+video{
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+.header{
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: var(--beige);
+    z-index: 50;
+    padding: 2rem 0;
+    left: 0;
+    top: 0;
+    border-bottom: 4px dashed var(--naranja);
+}
+.logo{
+   position:absolute;
+    padding:0%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 15px;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+    padding: 1rem;
+    cursor: pointer;
+}
+.titulo a img{
+    height: 130px;
+    width: 130px;
+}
+.titulo{
+    left: 150px;
+    position: absolute;
+    top: 15px;
+}
+.header nav{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 600px;
+    background-color:none;
+}
+
+.navegacion{
+    position: absolute;
+    height: 100px;
+    width: 80%;
+    
+}
+.navegacion nav{
+    position: absolute;
+    left: -200px;
+}
+.navegacion nav a{
+    text-decoration: none;
+    color: var(--negro);
+    margin: 15px;
+}
+.navegacion a:hover{
+    color:var(--verde);
+    cursor: pointer;
+}
+.redes{
+    height: auto;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    text-align: end;
+    text-decoration: none;
+}
+.redes img{ 
+    height: 50px;
+    width: 50px;
+   
+}
+.redes h3{
+    text-decoration: none;
+  margin-right: 55px;
+  margin-top: 6px;
+}
+.redes h3:hover{
+    color: var(--verde);
+}
+.text{
+    position: relative;
+    top: 200px;
+}
+
+/*header*/
+
+.contenedor{
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.video iframe{
+    width: 100%;
+    height: 500px;
+    
+}
+/*video*/
+
+.todo{
+    margin-left: 160px;
+    margin-right: 160px;
+    position: absolute;
+    height: 1100px;
+    width: 1000px;
+    background-color: var(--beige);
+}
+
+
+.contenedor-serie{
+    position: relative;
+    height: 500px;
+    margin-left: px;
+    margin-right: 160px;
+    background-color:rgb(243, 240, 234);
+    width: 1000px;
+}
+.sub{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    
+}
+sub h2{
+    padding-top: 1rem;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+input{
+    position: absolute;
+    left: 27.2%;
+    top: 61.2%;
+    padding-top: 1rem;
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+#uno{
+    position: absolute;
+    padding: 2rem;
+    top: 4rem;
+    margin-left: 0;
+    height: 50%;
+    width: 23%;
+}
+#tres{
+    position: absolute;
+    height: 50%;
+    width: 23%;
+    padding: 2rem;
+    top: 4rem;
+    left:45%;
+}
+#cuatro{
+    position: absolute;
+    padding: 2rem;
+    top: 4rem;
+    height: 50%;
+    width: 23%;
+    right: 0;
+    margin-left: 1rem;
+}
+.contenedor-serie nav{
+    position: absolute;
+    bottom:80px;
+    left: -50;
+    padding: 1rem;
+}
+.contenedor-serie nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.contenedor-serie nav a:hover{
+    color: rgb(245, 142, 25);
+}
+#un{
+    margin-left: 90px;
+}
+#do{
+    margin-left: 60px;
+}
+#tre{
+margin-left: 60px;
+}
+#cua{
+margin-left: 120px;
+}
+
+/*serie*/
+
+
+.contenedor-sena{
+    height: 500px;
+    position: relative;
+}
+.contenedor-sena h1{
+    text-align: center;
+}
+#ima1{
+     padding: 3rem;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+  
+}
+#ima2{
+    padding: 3rem;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-left: 350px;
+}
+#ima3{
+    padding: 3rem;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-left: 700px;
+}
+
+#ima4{
+    position: absolute;
+    bottom: 120px;
+    height: 30px;
+    left: 445px;
+}
+
+/*contenedor sena*/
+
+
+.footer{
+    position: relative;
+    height: 220px;
+    width: 100%;
+    background-color: rgb(243, 240, 234);
+  text-align: center;
+}
+.footer img{
+height: 140px;
+    position: absolute;
+    left: 0;
+    top: auto;
+}
+.derechos{
+    position: absolute;
+    width: 60%;
+    height: 200px;
+    right: 0;
+}
+.footer div{
+    padding: 1em;
+}
+
+.contenedor-serie a #inicio{
+    color:rgb(245, 142, 25) ;
+}
+body{
+    background-color:white;
+}
